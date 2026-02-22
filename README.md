@@ -27,11 +27,8 @@ git clone https://github.com/mstarefinaktar/semiconductor-test-toolkit.git
 cd semiconductor-test-toolkit
 pip install -r requirements.txt
 
-Parse STDF File
-python
-Run Code
+#Parse STDF File
 
-Copy code
 from src.stdf_parser import STDFV4Parser
 
 parser = STDFV4Parser("path/to/file.stdf")
@@ -42,11 +39,8 @@ df = parser.get_ptr_dataframe(site=0)
 df.to_csv("output.csv")
 
 
-Generate Wafer Map
-python
-Run Code
+#Generate Wafer Map
 
-Copy code
 from src.wafer_map import WaferMap, WaferConfig
 
 config = WaferConfig(wafer_diameter_mm=300, die_width_mm=8)
@@ -55,11 +49,8 @@ wafer.generate_sample_data(good_yield=0.85)
 wafer.plot_bin_map(title="Lot: ABC123 | Wafer: 01")
 
 
-Yield Analysis (Cp/Cpk)
-python
-Run Code
+#Yield Analysis (Cp/Cpk)
 
-Copy code
 from src.yield_analyzer import ProcessCapability
 import numpy as np
 
@@ -69,11 +60,8 @@ print(f"Cpk: {result['cpk']}")
 ProcessCapability.plot(data, lsl=3.20, usl=3.40, test_name="VDD Current")
 
 
-Shmoo Plot
-python
-Run Code
+#Shmoo Plot
 
-Copy code
 from src.shmoo_plot import ShmooEngine, ShmooConfig
 
 config = ShmooConfig(x_start=100, x_stop=500, y_start=0.75, y_stop=1.25)
@@ -82,11 +70,9 @@ shmoo.generate_realistic_shmoo(vdd_nominal=1.0, freq_nominal=300)
 shmoo.plot(title="VDD vs Frequency Shmoo")
 
 
-📊 Sample Outputs
+#Sample Outputs
 Wafer Bin Map
-scss
 
-Copy code
       ╭──────────╮
     ╭─┤ ■■■■■■■■ ├─╮      ■ = PASS (Green)
    │  │ ■■□■■■■■ │  │     □ = FAIL (Red)
@@ -95,9 +81,7 @@ Copy code
       ╰──────────╯
 
 Shmoo Plot
-markdown
 
-Copy code
 Voltage ▲
         │  ░░░░████████
         │  ░░░█████████     █ = PASS
@@ -105,10 +89,8 @@ Voltage ▲
         │  ░░░█████████
         └──────────────► Frequency
 
-🏗️ Architecture
-vbnet
+# Architecture
 
-Copy code
 STDF Binary File
       │
       ▼
@@ -139,7 +121,7 @@ scikit-learn - ML-based outlier detection
 This toolkit is for educational and personal use. Do not upload proprietary test data or NDA-protected information. All sample data is synthetic.
 
 # License
-MIT License - See LICENSE file
+
 
 
 
