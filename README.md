@@ -118,7 +118,7 @@ matplotlib - Visualization
 scipy - Statistical analysis
 scikit-learn - ML-based outlier detection
 # Disclaimer
-This toolkit is for educational and personal use. Do not upload proprietary test data or NDA-protected information. All sample data is synthetic.
+This toolkit is for educational and personal use. All sample data is synthetic.
 
 # License
 
