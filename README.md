@@ -23,6 +23,6 @@ A comprehensive toolkit for parsing, analyzing, and visualizing semiconductor te
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/mstarefinaktarE/semiconductor-test-toolkit.git
+git clone https://github.com/mstarefinaktar/semiconductor-test-toolkit.git
 cd semiconductor-test-toolkit
 pip install -r requirements.txt
