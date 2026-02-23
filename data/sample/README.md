@@ -2,13 +2,6 @@
 
 This directory is for sample/synthetic test data.
 
-##  Important
-
-- **NEVER** upload real STDF files (NDA violation!)
-- **NEVER** upload proprietary test programs
-- **NEVER** upload real lot/wafer IDs
-- Use only synthetic/generated data for demos
-
 ## Generating Sample Data
 
 Run the demo script to generate sample visualizations:
