@@ -120,7 +120,7 @@ scikit-learn - ML-based outlier detection
 
 ## 📁 Project Structure
 
-```
+
 semiconductor_test_toolkit/
 ├── src/
 │   ├── stdf_parser.py
@@ -137,11 +137,10 @@ semiconductor_test_toolkit/
 │   └── test_yield_analyzer.py
 ├── examples/
 │   └── demo.py
-├── data/sample/
+├── data/sample/README.md
 ├── requirements.txt
 ├── setup.py
 └── README.md
-```
 
 ---
 # Disclaimer
