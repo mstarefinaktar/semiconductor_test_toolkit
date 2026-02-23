@@ -118,7 +118,7 @@ matplotlib - Visualization
 scipy - Statistical analysis
 scikit-learn - ML-based outlier detection
 
-## 📁 Project Structure
+## Project Structure
 
 
 semiconductor_test_toolkit/
