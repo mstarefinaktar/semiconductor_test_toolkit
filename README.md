@@ -117,10 +117,37 @@ numpy - Numerical computing
 matplotlib - Visualization
 scipy - Statistical analysis
 scikit-learn - ML-based outlier detection
+
+## 📁 Project Structure
+
+```
+semiconductor_test_toolkit/
+├── src/
+│   ├── stdf_parser.py
+│   ├── wafer_map.py
+│   ├── yield_analyzer.py
+│   ├── shmoo_plot.py
+│   ├── outlier_detector.py
+│   └── test_time_optimizer.py
+├── tests/
+│   ├── test_outlier_detector.py
+│   ├── test_shmoo_plot.py
+│   ├── test_stdf_parser.py
+│   ├── test_wafer_map.py
+│   └── test_yield_analyzer.py
+├── examples/
+│   └── demo.py
+├── data/sample/
+├── requirements.txt
+├── setup.py
+└── README.md
+```
+
+---
 # Disclaimer
 This toolkit is for educational and personal use. All sample data is synthetic.
 
-# License
+
 
 
 
